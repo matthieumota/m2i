@@ -4,7 +4,7 @@ print(fruits[1])
 print(fruits[-1])
 print(fruits[len(fruits) - 1])
 
-print(fruits[0:2]) # On pars de l'index 0 et on en prends 2
+print(fruits[0:2]) # On part de l'index 0 et on en prends 2
 print(fruits[1:2])
 print(fruits[::2])
 
