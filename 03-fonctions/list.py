@@ -64,3 +64,9 @@ else:
 print(person.get(0))
 print(person.get(True))
 print(person.get(None))
+
+person.update({'firstname': 'Toto'})
+person['firstname'] = 'Toto'
+cats: list = person.get('cats', [])
+cats.append({ 'name': 'A' })
+print(person)
