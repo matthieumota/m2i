@@ -1,0 +1,76 @@
+
+[2025-06-04 16:09:46,175] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:09:46,540] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:10:06,757] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:10:07,142] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:10:09,144] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:10:09,495] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:10:10,281] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:10:10,627] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:10:11,434] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:10:11,785] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:10:12,496] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:10:12,848] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:10:13,662] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:10:14,014] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:15:11,731] INFO - HTTP request on https://httpbin.orgg/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:15:11,771] ERROR - Network error on https://httpbin.orgg/bearer?apiKey=******
+[2025-06-04 16:15:11,771] ERROR - Max retries reached...
+[2025-06-04 16:15:50,105] INFO - HTTP request on https://httpbin.orgg/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:15:50,130] ERROR - Network error on https://httpbin.orgg/bearer?apiKey=******
+[2025-06-04 16:16:18,321] INFO - HTTP request on https://httpbin.orgg/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:16:18,325] ERROR - Network error on https://httpbin.orgg/bearer?apiKey=******
+[2025-06-04 16:16:30,189] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:16:30,555] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:16:35,460] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:16:36,151] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:19:15,001] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:19:15,703] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:21:06,683] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/1) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:21:18,279] INFO - HTTP response from https://httpbin.org/bearer?apiKey=****** with Status: 200 - Response: {
+  "authenticated": true, 
+  "token": "******"
+}
+
+[2025-06-04 16:21:59,496] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/3) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:22:00,722] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:22:00,722] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 2/3) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:22:01,081] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:22:01,081] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 3/3) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:22:01,750] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:08,844] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/3) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:09,199] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:09,200] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:11,200] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 2/3) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:11,548] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:11,549] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:13,552] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 3/3) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:13,903] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:13,904] ERROR - Max retries reached...
+[2025-06-04 16:23:24,560] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 1/30) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:24,979] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:24,980] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:26,985] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 2/30) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:27,334] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:27,335] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:29,339] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 3/30) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:29,686] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:29,686] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:31,691] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 4/30) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:32,044] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:32,044] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:34,049] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 5/30) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:34,701] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:34,701] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:36,706] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 6/30) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:37,065] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:37,065] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:39,069] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 7/30) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:39,826] ERROR - HTTP error: 503 Server Error: Service Temporarily Unavailable for url: https://httpbin.org/bearer?apiKey=******
+[2025-06-04 16:23:39,826] ERROR - Retrying in 2 seconds...
+[2025-06-04 16:23:41,829] INFO - HTTP request on https://httpbin.org/bearer?apiKey=****** (attempt 8/30) with headers: {'Authorization': 'Bearer ******'}
+[2025-06-04 16:23:52,664] INFO - HTTP response from https://httpbin.org/bearer?apiKey=****** with Status: 200 - Response: {
+  "authenticated": true, 
+  "token": "******"
+}
+
