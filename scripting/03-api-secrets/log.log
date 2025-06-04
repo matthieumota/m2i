@@ -1,0 +1,111 @@
+INFO:root:123456
+INFO:root:123456
+INFO:root:123456
+INFO:root:123456
+INFO:root:123456
+INFO:root:123456
+2025-06-04 11:56:45,577 [INFO] 123456
+2025-06-04 11:56:46,978 [INFO] 123456
+2025-06-04 11:56:48,043 [INFO] 123456
+2025-06-04 11:56:48,876 [INFO] 123456
+2025-06-04 11:56:50,704 [INFO] 123456
+2025-06-04 11:56:51,711 [INFO] 123456
+2025-06-04 11:56:52,829 [INFO] 123456
+2025-06-04 11:56:53,718 [INFO] 123456
+2025-06-04 11:56:54,451 [INFO] 123456
+2025-06-04 11:56:55,164 [INFO] 123456
+2025-06-04 11:56:55,897 [INFO] 123456
+2025-06-04 11:56:56,728 [INFO] 123456
+2025-06-04 11:56:57,710 [INFO] 123456
+2025-06-04 11:56:58,881 [INFO] 123456
+2025-06-04 11:56:59,677 [INFO] 123456
+2025-06-04 11:57:00,653 [INFO] 123456
+2025-06-04 11:57:01,309 [INFO] 123456
+2025-06-04 11:57:02,267 [INFO] 123456
+2025-06-04 11:57:03,013 [INFO] 123456
+2025-06-04 11:57:03,687 [INFO] 123456
+2025-06-04 11:58:49,892 [INFO] 123456
+2025-06-04 11:58:51,657 [INFO] 123456
+2025-06-04 11:59:56,639 [INFO] 123456 Args: {'IP': '127.0.0.1'}
+2025-06-04 11:59:59,957 [INFO] 123456 Args: {'IP': '127.0.0.1'}
+2025-06-04 12:00:06,355 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:00:08,392 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:00:11,815 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:00:17,341 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:00:18,120 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:06:08,889 [CRITICAL] Erreur Data: {'e': ValueError('Le token est pas valide')}
+2025-06-04 12:06:32,877 [CRITICAL] Erreur Data: ()
+2025-06-04 12:07:02,595 [CRITICAL] Erreur Data: {ValueError('Le token est pas valide'): ValueError('Le token est pas valide')}
+2025-06-04 12:07:42,009 [CRITICAL] Erreur Data: {'e': ('Le token est pas valide',)}
+2025-06-04 12:07:50,047 [CRITICAL] Erreur Data: {'e': 'Le token est pas valide'}
+2025-06-04 12:08:03,626 [CRITICAL] Erreur Data: {'e': 'Le token est pas valide'}
+2025-06-04 12:16:22,210 [CRITICAL] Erreur Data: {'e': 'Le token est pas valide'}
+2025-06-04 12:18:11,548 [CRITICAL] Erreur Data: {'e': 'Le token est pas valide'}
+2025-06-04 12:18:35,062 [CRITICAL] Erreur Data: {'e': 'Le token est pas valide'}
+2025-06-04 12:19:10,855 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:19:49,551 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:19:54,238 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:20:22,685 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:20:30,277 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:20:37,098 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:20:47,461 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 12:21:11,005 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:38:01,630 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:38:37,537 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:38:37,542 [ERROR] HTTPSConnectionPool(host='httpbin.or', port=443): Max retries exceeded with url: /delay/1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1060b4980>: Failed to resolve 'httpbin.or' ([Errno 8] nodename nor servname provided, or not known)")) Data: ()
+2025-06-04 13:38:44,208 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:38:44,213 [ERROR] HTTPSConnectionPool(host='httpbin.or', port=443): Max retries exceeded with url: /delay/1 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x103d14980>: Failed to resolve 'httpbin.or' ([Errno 8] nodename nor servname provided, or not known)")) Data: ()
+2025-06-04 13:40:15,189 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:40:28,140 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:41:29,704 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:41:32,001 [ERROR] Erreur 500 sur l'API Data: ()
+2025-06-04 13:42:01,549 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:42:01,912 [ERROR] Erreur 500 sur l'API Data: ()
+2025-06-04 13:42:27,922 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:42:28,279 [ERROR] Erreur 500 sur l'API Data: ()
+2025-06-04 13:42:52,302 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:42:52,675 [ERROR] 502 Server Error: Bad Gateway for url: https://httpbin.org/status/500 Data: ()
+2025-06-04 13:43:07,244 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:43:08,235 [ERROR] 500 Server Error: INTERNAL SERVER ERROR for url: https://httpbin.org/status/500 Data: ()
+2025-06-04 13:43:16,323 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:43:17,290 [ERROR] 500 Server Error: INTERNAL SERVER ERROR for url: https://httpbin.org/status/500 Data: ()
+2025-06-04 13:43:17,977 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:43:18,332 [ERROR] 500 Server Error: INTERNAL SERVER ERROR for url: https://httpbin.org/status/500 Data: ()
+2025-06-04 13:43:19,761 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:43:20,197 [ERROR] 500 Server Error: INTERNAL SERVER ERROR for url: https://httpbin.org/status/500 Data: ()
+2025-06-04 13:43:23,230 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:43:23,882 [ERROR] 500 Server Error: INTERNAL SERVER ERROR for url: https://httpbin.org/status/500 Data: ()
+2025-06-04 13:43:24,818 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:43:25,284 [ERROR] 500 Server Error: INTERNAL SERVER ERROR for url: https://httpbin.org/status/500 Data: ()
+2025-06-04 13:43:38,057 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:43:38,795 [ERROR] 401 Client Error: UNAUTHORIZED for url: https://httpbin.org/status/401 Data: ()
+2025-06-04 13:43:59,470 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:44:09,375 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:44:09,725 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:46:37,618 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:47:11,161 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:47:12,818 [ERROR] Erreur 400 sur l'API Data: ()
+2025-06-04 13:47:50,161 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:47:50,554 [ERROR] Erreur 403 sur l'API:  Data: ()
+2025-06-04 13:48:32,692 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:48:33,125 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:48:36,510 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:48:39,156 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:53:47,750 [CRITICAL] Erreur Data: {'e': "module 'os' has no attribute 'toto'"}
+2025-06-04 13:53:49,603 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:54:52,116 [CRITICAL] Erreur Data: {'e': 'Le token est pas valide'}
+2025-06-04 13:54:52,496 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:55:07,179 [INFO] 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:55:08,320 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:56:05,941 [INFO] Le token est correct: 123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:56:06,341 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:56:55,204 [INFO] https://tonapi.com?token=123456 Data: {'IP': '127.0.0.1'}
+2025-06-04 13:56:55,561 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:57:58,979 [INFO] https://tonapi.com?token=*** Data: {'IP': '127.0.0.1'}
+2025-06-04 13:57:59,368 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:58:20,361 [INFO] https://tonapi.com?token=**** Data: {'IP': '127.0.0.1'}
+2025-06-04 13:58:21,521 [ERROR] 502 Server Error: Bad Gateway for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:59:48,595 [INFO] https://tonapi.com?token=****** Data: {'IP': '127.0.0.1'}
+2025-06-04 13:59:48,963 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
+2025-06-04 13:59:57,064 [INFO] https://tonapi.com?token=*** Data: {'IP': '127.0.0.1'}
+2025-06-04 13:59:57,438 [ERROR] 403 Client Error: FORBIDDEN for url: https://httpbin.org/status/403 Data: ()
