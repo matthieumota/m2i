@@ -14,7 +14,7 @@ def run_command(name: str, cmd: list):
     logging.info(f'Running {name}...')
 
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, shell=False) # nosec B603
+        result = subprocess.run(cmd, capture_output=True, text=True) # nosec B603
         if result.returncode == 0:
             logging.info(f'{name} OK ✅')
         else:
