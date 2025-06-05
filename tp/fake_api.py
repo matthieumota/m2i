@@ -11,13 +11,14 @@ security = HTTPBearer()
 load_dotenv()
 
 API_TOKEN = os.getenv('API_TOKEN')
+API_PASSWORD = os.getenv('API_PASSWORD')
 
 @app.post('/login')
 async def login(
   username: str = Body(...),
   password: str = Body(...)
 ):
-  if username != 'fiorella' or password != 'password':
+  if username != 'fiorella' or password != API_PASSWORD:
     raise HTTPException(
       status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
       detail='Login ou mot de passe incorrect',
@@ -35,12 +36,13 @@ async def get_status(app: str = 'unknown', credentials: HTTPAuthorizationCredent
       detail='Token invalide'
     )
 
-  app_status = random.choice(['OK', 'DEGRADED', 'DOWN'])
+  app_status = random.choice(['OK', 'DEGRADED', 'DOWN']) # nosec B311
+  response_time = round(random.uniform(0.1, 1.5), 2) # nosec B311
   time.sleep(0.5)
 
   return {
     'app': app,
     'status': app_status,
-    'response_time': 0,
+    'response_time': response_time,
     'timestamp': time.time(),
   }
