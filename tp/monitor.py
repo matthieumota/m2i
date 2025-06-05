@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from pathlib import Path
 import json
 import logging
+import mysql.connector
 import os
 import requests
 
@@ -58,14 +59,43 @@ def getStatus(token: str, app: str = 'unknown'):
         return data
     except requests.exceptions.HTTPError as e:
         logging.error(f'Error fetching status for {app}: {e}')
-        return {
-            'app': app,
-            'status': 'ERROR',
-            'error': str(e),
-            'timestamp': datetime.datetime.now().timestamp()
-        }
 
 token = fetchToken()
+
+conn = None
+try:
+    conn = mysql.connector.connect(
+        host=os.getenv('DB_HOST'),
+        port=os.getenv('DB_PORT'),
+        user=os.getenv('DB_USER'),
+        password=os.getenv('DB_PASSWORD'),
+        database=os.getenv('DB_NAME'),
+    )
+    cursor = conn.cursor()
+except Exception as e:
+    logging.error(f'Error connecting to DB: {e}')
+
+def insert(data):
+    if not conn:
+        return
+
+    try:
+        query = '''
+            insert into app_status (timestamp, app_name, status, response_time) values (%s, %s, %s, %s)
+        '''
+
+        cursor.execute(query, (
+            datetime.datetime.fromtimestamp(data['timestamp']).strftime('%Y-%m-%d %H:%M:%S'),
+            data['app'],
+            data['status'],
+            data['response_time'],
+        ))
+
+        conn.commit()
+
+        logging.info(f'Status inserted for {data['app']} into DB')
+    except Exception as e:
+        logging.error(f'Error inserting status: {e}')
 
 # Création du dossier reports
 Path('reports').mkdir(exist_ok=True)
@@ -88,6 +118,7 @@ for app in APP_LIST:
     result = getStatus(token, app)
     if result:
         results.append(result)
+        insert(result)
 
 with open(report_filename, 'w') as f:
     json.dump(results, f, indent=2)

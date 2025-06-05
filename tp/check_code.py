@@ -1,4 +1,4 @@
-import subprocess
+import subprocess # nosec B404
 import logging
 
 logging.basicConfig(
@@ -14,7 +14,7 @@ def run_command(name: str, cmd: list):
     logging.info(f'Running {name}...')
 
     try:
-        result = subprocess.run(cmd, capture_output=True, text=True, check=False)
+        result = subprocess.run(cmd, capture_output=True, text=True, shell=False) # nosec B603
         if result.returncode == 0:
             logging.info(f'{name} OK ✅')
         else:
@@ -27,7 +27,7 @@ def run_command(name: str, cmd: list):
         logging.error(f'Error running {name}: {e}')
 
 run_command('pip audit', ['pip-audit'])
-run_command('bandit', ['bandit', 'fake_api.py', 'monitor.py'])
+run_command('bandit on fake_api.py, monitor.py, check_code.py', ['bandit', 'fake_api.py', 'monitor.py', 'check_code.py'])
 # run_command('not work', ['nw'])
 
 if has_failure:
